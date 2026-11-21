@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="kayaloramGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="50%" stop-color="#0369a1"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="240" fill="url(#kayaloramGrad)"/>
+  
+  <!-- Backwater wave silhouettes -->
+  <path d="M 0,200 Q 150,160 300,200 T 600,190 L 600,240 L 0,240 Z" fill="#082f49" opacity="0.6"/>
+  <path d="M 0,215 Q 150,195 300,220 T 600,210 L 600,240 L 0,240 Z" fill="#0369a1" opacity="0.4"/>
+
+  <!-- Coconut palm tree silhouette right -->
+  <g transform="translate(450, 20) scale(0.65)" stroke="#38bdf8" stroke-width="2" fill="none" opacity="0.75">
+    <path d="M 80,240 Q 90,130 110,60" stroke="#082f49" stroke-width="12"/>
+    <!-- Fronds -->
+    <path d="M 110,60 Q 60,30 20,60" stroke-width="4"/>
+    <path d="M 110,60 Q 150,20 190,50" stroke-width="4"/>
+    <path d="M 110,60 Q 100,10 70,0" stroke-width="4"/>
+    <path d="M 110,60 Q 140,10 160,5" stroke-width="4"/>
+    <path d="M 110,60 Q 70,80 30,100" stroke-width="4"/>
+    <path d="M 110,60 Q 150,80 180,110" stroke-width="4"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="50" y="80" font-family="system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#7dd3fc" text-transform="uppercase">BACKWATER SEAFOOD SPECIALTY</text>
+  <text x="50" y="130" font-family="system-ui, sans-serif" font-size="34" font-weight="900" fill="#ffffff">Kayaloram Seafood</text>
+  <text x="50" y="165" font-family="system-ui, sans-serif" font-size="16" fill="#e0f2fe">Karimeen Pollichathu, Tiger Prawns &amp; Alleppey Claypot Curries</text>
+  
+  <!-- Rating pill -->
+  <rect x="50" y="185" width="145" height="30" rx="15" fill="#0284c7"/>
+  <text x="122" y="205" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">★ 4.9 (850+ Reviews)</text>
+</svg>

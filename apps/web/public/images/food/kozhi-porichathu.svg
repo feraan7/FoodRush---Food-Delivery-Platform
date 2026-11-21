@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <radialGradient id="chickenCrisp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="40%" stop-color="#b91c1c"/>
+      <stop offset="85%" stop-color="#7f1d1d"/>
+      <stop offset="100%" stop-color="#450a0a"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="#18181b"/>
+
+  <!-- Dark charcoal plate -->
+  <ellipse cx="200" cy="155" rx="165" ry="115" fill="#27272a" stroke="#52525b" stroke-width="4"/>
+
+  <!-- Banana leaf cutout inside plate -->
+  <ellipse cx="200" cy="155" rx="145" ry="98" fill="#15803d"/>
+  <line x1="60" y1="155" x2="340" y2="155" stroke="#166534" stroke-width="2.5"/>
+
+  <!-- Crispy deep-fried Malabar spiced chicken pieces (Kozhi Porichathu) -->
+  <!-- Piece 1 (Drumstick) -->
+  <path d="M 110,135 Q 160,105 200,125 Q 210,155 170,165 Q 130,170 110,135 Z" fill="url(#chickenCrisp)" stroke="#450a0a" stroke-width="2"/>
+  <rect x="90" y="130" width="25" height="12" rx="6" fill="#fef08a" stroke="#ca8a04" stroke-width="1.5" transform="rotate(-15 90 130)"/> <!-- Bone -->
+
+  <!-- Piece 2 (Crisp breast chunk) -->
+  <ellipse cx="225" cy="140" rx="42" ry="32" fill="url(#chickenCrisp)" stroke="#450a0a" stroke-width="2"/>
+
+  <!-- Piece 3 (Wing / thigh piece) -->
+  <path d="M 160,155 Q 210,140 245,170 Q 230,195 185,190 Q 150,185 160,155 Z" fill="url(#chickenCrisp)" stroke="#450a0a" stroke-width="2"/>
+
+  <!-- Deep fried red chili flakes & spicy masala crumbs -->
+  <circle cx="145" cy="130" r="3" fill="#ef4444"/>
+  <circle cx="180" cy="145" r="2.5" fill="#f87171"/>
+  <circle cx="215" cy="135" r="3.5" fill="#ef4444"/>
+  <circle cx="240" cy="150" r="2.5" fill="#f87171"/>
+  <circle cx="195" cy="175" r="3" fill="#ef4444"/>
+
+  <!-- Fried crunchy curry leaf cluster -->
+  <ellipse cx="140" cy="160" rx="14" ry="6" fill="#14532d" stroke="#052e16" stroke-width="1" transform="rotate(25 140 160)"/>
+  <ellipse cx="210" cy="160" rx="15" ry="6" fill="#166534" stroke="#052e16" stroke-width="1" transform="rotate(-30 210 160)"/>
+  <ellipse cx="250" cy="130" rx="12" ry="5" fill="#14532d" stroke="#052e16" stroke-width="1" transform="rotate(45 250 130)"/>
+
+  <!-- Slit green chili, fried crispy -->
+  <path d="M 165,115 Q 190,105 210,120" stroke="#15803d" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Fresh onion ring & lemon wedges on the side -->
+  <circle cx="280" cy="170" r="18" fill="none" stroke="#f472b6" stroke-width="4"/>
+  <circle cx="295" cy="180" r="14" fill="none" stroke="#fbcfe8" stroke-width="3"/>
+  <path d="M 285,115 A 18,18 0 0,1 315,130 Z" fill="#eab308" stroke="#ca8a04" stroke-width="2"/>
+
+  <text x="200" y="278" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#fef08a" text-anchor="middle">Malabar Kozhi Porichathu</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#FEF3C7"/>
+    </radialGradient>
+    <linearGradient id="bowl" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="50%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+    <linearGradient id="rice" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#bg)"/>
+  <ellipse cx="200" cy="245" rx="150" ry="25" fill="#000" opacity="0.08"/>
+  <!-- Brass Uruli / Bowl -->
+  <ellipse cx="200" cy="180" rx="135" ry="55" fill="url(#bowl)"/>
+  <ellipse cx="200" cy="170" rx="130" ry="48" fill="#92400E"/>
+  <!-- Fragrant Kaima Biryani Rice Mound -->
+  <path d="M 80 165 C 80 100, 320 100, 320 165 C 320 195, 80 195, 80 165 Z" fill="url(#rice)"/>
+  <!-- Rice texture details -->
+  <circle cx="160" cy="135" r="3.5" fill="#FEF08A"/>
+  <circle cx="190" cy="125" r="4" fill="#FCD34D"/>
+  <circle cx="220" cy="130" r="3" fill="#FEF08A"/>
+  <circle cx="245" cy="145" r="3.5" fill="#FEF08A"/>
+  <circle cx="140" cy="150" r="4" fill="#FCD34D"/>
+  <circle cx="175" cy="155" r="3" fill="#FEF08A"/>
+  <!-- Succulent Chicken Piece -->
+  <path d="M 170 125 C 160 100, 210 95, 230 115 C 240 125, 225 150, 195 145 C 175 140, 175 135, 170 125 Z" fill="#991B1B"/>
+  <path d="M 180 120 C 175 108, 205 102, 218 118" stroke="#F87171" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Fried Cashews & Golden Sultanas -->
+  <path d="M 145 130 Q 152 122 158 132 Q 150 136 145 130 Z" fill="#FEF3C7" stroke="#D97706" stroke-width="1.5"/>
+  <path d="M 235 140 Q 242 132 248 142 Q 240 146 235 140 Z" fill="#FEF3C7" stroke="#D97706" stroke-width="1.5"/>
+  <circle cx="130" cy="142" r="5" fill="#78350F"/>
+  <circle cx="260" cy="135" r="4.5" fill="#78350F"/>
+  <!-- Boiled Egg half -->
+  <ellipse cx="140" cy="165" rx="16" ry="12" fill="#FFFFFF"/>
+  <ellipse cx="142" cy="165" rx="8" ry="6" fill="#F59E0B"/>
+  <!-- Fresh Mint & Coriander sprig -->
+  <path d="M 205 105 Q 215 90 225 95 Q 220 108 205 105 Z" fill="#16A34A"/>
+  <path d="M 202 103 Q 195 90 188 95 Q 192 108 202 103 Z" fill="#22C55E"/>
+  <text x="200" y="278" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#78350F" text-anchor="middle">Thalassery Dum Biryani</text>
+</svg>

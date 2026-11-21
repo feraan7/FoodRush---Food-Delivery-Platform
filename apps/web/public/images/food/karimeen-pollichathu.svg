@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14532d"/>
+      <stop offset="100%" stop-color="#052e16"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="50%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+    <linearGradient id="char" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="50%" stop-color="#7c2d12"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Steaming banana leaf wrap open -->
+  <path d="M 40,240 Q 200,280 360,230 Q 380,120 340,60 Q 200,40 60,70 Q 20,150 40,240 Z" fill="url(#leaf)" stroke="#166534" stroke-width="4"/>
+  <path d="M 50,150 Q 200,160 350,140" stroke="#166534" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M 120,80 Q 180,150 220,230" stroke="#166534" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M 260,70 Q 230,150 280,220" stroke="#166534" stroke-width="2" fill="none" opacity="0.4"/>
+
+  <!-- Roasted Pearl Spot (Karimeen) with thick masala crust -->
+  <ellipse cx="200" cy="150" rx="125" ry="55" fill="url(#char)" stroke="#3f1406" stroke-width="3"/>
+  <!-- Tail fin -->
+  <polygon points="75,150 35,115 35,185" fill="#7c2d12"/>
+  <!-- Head shape -->
+  <path d="M 280,110 Q 330,150 280,190 Z" fill="#9a3412"/>
+  <!-- Fish Eye -->
+  <circle cx="295" cy="140" r="7" fill="#fef08a"/>
+  <circle cx="297" cy="140" r="3.5" fill="#1c1917"/>
+
+  <!-- Slits / cuts with deep roasted masala -->
+  <line x1="130" y1="120" x2="110" y2="180" stroke="#451a03" stroke-width="5" stroke-linecap="round"/>
+  <line x1="165" y1="110" x2="145" y2="190" stroke="#451a03" stroke-width="5" stroke-linecap="round"/>
+  <line x1="200" y1="105" x2="180" y2="195" stroke="#451a03" stroke-width="5" stroke-linecap="round"/>
+  <line x1="235" y1="110" x2="215" y2="190" stroke="#451a03" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Onion rings, curry leaves, green chilies, lemon wedge garnish -->
+  <circle cx="160" cy="130" r="16" fill="none" stroke="#f472b6" stroke-width="4" opacity="0.85"/>
+  <circle cx="230" cy="145" r="18" fill="none" stroke="#f472b6" stroke-width="4" opacity="0.85"/>
+  <circle cx="190" cy="165" r="14" fill="none" stroke="#fbcfe8" stroke-width="3.5" opacity="0.9"/>
+  <!-- Curry leaves -->
+  <ellipse cx="140" cy="165" rx="10" ry="4" fill="#15803d" transform="rotate(-25 140 165)"/>
+  <ellipse cx="215" cy="120" rx="12" ry="5" fill="#166534" transform="rotate(20 215 120)"/>
+  <ellipse cx="255" cy="165" rx="9" ry="4" fill="#15803d" transform="rotate(-15 255 165)"/>
+  <!-- Lemon slice -->
+  <path d="M 285,170 A 20,20 0 0,1 320,185 Z" fill="#eab308" stroke="#ca8a04" stroke-width="2"/>
+  
+  <text x="200" y="275" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#fef08a" text-anchor="middle">Karimeen Pollichathu</text>
+</svg>

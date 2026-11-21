@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bananaFritter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="35%" stop-color="#eab308"/>
+      <stop offset="85%" stop-color="#ca8a04"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </linearGradient>
+    <linearGradient id="chaiCup" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#9a3412"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#18181b"/>
+
+  <!-- Banana leaf plate liner -->
+  <polygon points="50,230 350,230 370,100 30,100" fill="#166534" stroke="#15803d" stroke-width="3"/>
+  <line x1="40" y1="165" x2="360" y2="165" stroke="#14532d" stroke-width="2.5"/>
+
+  <!-- Golden Crispy Pazham Pori (Ripe Plantain / Nendran Fritters) -->
+  <!-- Fritter 1 (diagonal) -->
+  <path d="M 60,195 Q 150,150 250,110 Q 265,125 255,145 Q 160,185 70,225 Z" fill="url(#bananaFritter)" stroke="#854d0e" stroke-width="2"/>
+  <!-- Crisp blister edges -->
+  <circle cx="120" cy="165" r="3" fill="#713f12" opacity="0.6"/>
+  <circle cx="180" cy="138" r="4" fill="#713f12" opacity="0.6"/>
+  <circle cx="210" cy="125" r="2.5" fill="#713f12" opacity="0.6"/>
+
+  <!-- Fritter 2 (parallel overlap) -->
+  <path d="M 90,215 Q 180,170 275,130 Q 290,145 280,165 Q 190,205 100,245 Z" fill="url(#bananaFritter)" stroke="#854d0e" stroke-width="2"/>
+  <circle cx="150" cy="185" r="3.5" fill="#713f12" opacity="0.6"/>
+  <circle cx="210" cy="160" r="3" fill="#713f12" opacity="0.6"/>
+
+  <!-- Fritter 3 (front golden crispy slice) -->
+  <path d="M 125,235 Q 210,195 295,160 Q 308,175 298,190 Q 215,225 135,255 Z" fill="url(#bananaFritter)" stroke="#854d0e" stroke-width="2"/>
+
+  <!-- Glass of frothy Kerala Meter Chaya (Cardamom Milk Tea) -->
+  <!-- Glass body -->
+  <path d="M 305,100 L 320,185 L 355,185 L 370,100 Z" fill="#ffffff" fill-opacity="0.3" stroke="#e2e8f0" stroke-width="2"/>
+  <!-- Tea Liquid -->
+  <path d="M 310,120 L 322,183 L 353,183 L 365,120 Z" fill="url(#chaiCup)"/>
+  <!-- Froth crown (Pum) -->
+  <ellipse cx="338" cy="120" rx="27" ry="9" fill="#fef08a" stroke="#fde047" stroke-width="1.5"/>
+  <ellipse cx="338" cy="120" rx="20" ry="6" fill="#fef9c3"/>
+  <!-- Bubbles in froth -->
+  <circle cx="330" cy="119" r="2" fill="#ca8a04"/>
+  <circle cx="344" cy="121" r="2.5" fill="#ca8a04"/>
+  <circle cx="338" cy="122" r="1.5" fill="#ca8a04"/>
+
+  <!-- Steam ribbons from tea -->
+  <path d="M 330,95 Q 325,75 332,60" stroke="#f1f5f9" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M 345,92 Q 350,72 342,55" stroke="#f1f5f9" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.7"/>
+
+  <text x="200" y="280" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#fef08a" text-anchor="middle">Nadan Pazham Pori &amp; Chaya</text>
+</svg>

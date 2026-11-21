@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <radialGradient id="clayPot" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#9a3412"/>
+      <stop offset="70%" stop-color="#7c2d12"/>
+      <stop offset="100%" stop-color="#431407"/>
+    </radialGradient>
+    <linearGradient id="fishGravy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="40%" stop-color="#c2410c"/>
+      <stop offset="80%" stop-color="#991b1b"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#0c0a09"/>
+
+  <!-- Earthen Clay Pot (Manchatti) rim -->
+  <ellipse cx="200" cy="155" rx="160" ry="115" fill="url(#clayPot)" stroke="#431407" stroke-width="8"/>
+  <ellipse cx="200" cy="150" rx="146" ry="102" fill="#541c0b"/>
+
+  <!-- Fragrant Alleppey Fish Curry Gravy (Coconut milk & Raw Mango) -->
+  <ellipse cx="200" cy="148" rx="138" ry="94" fill="url(#fishGravy)"/>
+
+  <!-- Coconut cream swirl ripple in gravy -->
+  <path d="M 120,150 Q 180,180 240,140 Q 280,120 270,165" stroke="#fef08a" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+  <!-- King Fish / Seer Fish (Neymeen) Steaks in gravy -->
+  <!-- Steak 1 -->
+  <path d="M 130,120 Q 170,100 185,135 Q 165,165 125,150 Z" fill="#fff7ed" stroke="#b45309" stroke-width="3"/>
+  <circle cx="152" cy="132" r="5" fill="#78350f"/> <!-- Bone cavity -->
+  <path d="M 130,120 Q 170,100 185,135" stroke="#c2410c" stroke-width="4" fill="none" opacity="0.7"/>
+
+  <!-- Steak 2 -->
+  <path d="M 210,135 Q 260,120 275,155 Q 245,185 205,165 Z" fill="#fff7ed" stroke="#b45309" stroke-width="3"/>
+  <circle cx="238" cy="150" r="5.5" fill="#78350f"/>
+
+  <!-- Fresh Raw Green Mango slices (Pacha Manga) -->
+  <path d="M 170,165 Q 195,155 205,180 Q 180,185 170,165 Z" fill="#a3e635" stroke="#4d7c0f" stroke-width="2"/>
+  <path d="M 235,110 Q 255,100 260,120 Q 240,128 235,110 Z" fill="#a3e635" stroke="#4d7c0f" stroke-width="2"/>
+
+  <!-- Kudampuli (Malabar Tamarind) piece -->
+  <path d="M 120,168 Q 135,160 140,175 Q 128,185 120,168 Z" fill="#171717" stroke="#262626" stroke-width="1.5"/>
+
+  <!-- Ginger juliennes & green chilies -->
+  <line x1="165" y1="120" x2="185" y2="128" stroke="#fef08a" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="195" y1="135" x2="215" y2="140" stroke="#fef08a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Green chili slit -->
+  <path d="M 155,175 Q 175,190 190,175" stroke="#22c55e" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Crispy tempered curry leaves & mustard seeds -->
+  <circle cx="160" cy="140" r="1.5" fill="#000"/>
+  <circle cx="210" cy="170" r="1.5" fill="#000"/>
+  <circle cx="230" cy="130" r="1.5" fill="#000"/>
+  <circle cx="250" cy="165" r="1.5" fill="#000"/>
+  <ellipse cx="180" cy="145" rx="10" ry="4" fill="#15803d" transform="rotate(30 180 145)"/>
+  <ellipse cx="225" cy="155" rx="11" ry="4" fill="#166534" transform="rotate(-35 225 155)"/>
+
+  <text x="200" y="278" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#fef08a" text-anchor="middle">Alleppey Meen Curry (Manchatti)</text>
+</svg>

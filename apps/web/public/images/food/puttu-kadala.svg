@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tableBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#0c0a09"/>
+    </linearGradient>
+    <linearGradient id="puttuRice" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="kadalaGravy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="60%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#3b0764"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#tableBg)"/>
+
+  <!-- Banana leaf plate serving base -->
+  <path d="M 30,230 Q 200,265 370,225 Q 380,100 340,65 Q 200,45 50,75 Z" fill="#15803d" stroke="#166534" stroke-width="3"/>
+  <line x1="40" y1="150" x2="360" y2="145" stroke="#14532d" stroke-width="3" opacity="0.6"/>
+
+  <!-- Cylindrical Puttu (Steamed rice flour and coconut log) -->
+  <!-- Bottom Puttu Piece -->
+  <rect x="70" y="115" width="125" height="45" rx="6" fill="url(#puttuRice)" stroke="#cbd5e1" stroke-width="1.5"/>
+  <!-- Coconut layer bands -->
+  <rect x="70" y="115" width="14" height="45" rx="2" fill="#fffbeb" opacity="0.9"/>
+  <rect x="125" y="115" width="10" height="45" rx="2" fill="#fffbeb" opacity="0.9"/>
+  <rect x="181" y="115" width="14" height="45" rx="2" fill="#fffbeb" opacity="0.9"/>
+  
+  <!-- Second Puttu Piece stacked parallel -->
+  <rect x="75" y="65" width="115" height="42" rx="6" fill="url(#puttuRice)" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="75" y="65" width="12" height="42" rx="2" fill="#fffbeb" opacity="0.9"/>
+  <rect x="128" y="65" width="9" height="42" rx="2" fill="#fffbeb" opacity="0.9"/>
+  <rect x="178" y="65" width="12" height="42" rx="2" fill="#fffbeb" opacity="0.9"/>
+
+  <!-- Kadala Curry Bowl (Roasted coconut black chickpea curry) -->
+  <ellipse cx="280" cy="150" rx="75" ry="60" fill="#3f1c08" stroke="#78350f" stroke-width="4"/>
+  <ellipse cx="280" cy="148" rx="67" ry="50" fill="url(#kadalaGravy)"/>
+  
+  <!-- Black chickpeas (Kadala) -->
+  <circle cx="255" cy="135" r="9" fill="#1c1917" stroke="#451a03" stroke-width="1.5"/>
+  <circle cx="280" cy="130" r="10" fill="#292524" stroke="#451a03" stroke-width="1.5"/>
+  <circle cx="305" cy="140" r="9" fill="#1c1917" stroke="#451a03" stroke-width="1.5"/>
+  <circle cx="270" cy="155" r="9.5" fill="#292524" stroke="#451a03" stroke-width="1.5"/>
+  <circle cx="295" cy="160" r="9" fill="#1c1917" stroke="#451a03" stroke-width="1.5"/>
+  <circle cx="250" cy="160" r="8" fill="#1c1917"/>
+
+  <!-- Fried coconut slices (Thenga kothu) -->
+  <rect x="285" y="142" width="12" height="4" rx="1.5" fill="#d97706" transform="rotate(-15 285 142)"/>
+  <rect x="260" y="145" width="14" height="4" rx="1.5" fill="#b45309" transform="rotate(30 260 145)"/>
+  <!-- Mustard seeds & curry leaves -->
+  <circle cx="275" cy="148" r="1.5" fill="#000000"/>
+  <circle cx="290" cy="135" r="1.5" fill="#000000"/>
+  <ellipse cx="280" cy="165" rx="10" ry="4" fill="#16a34a" transform="rotate(10 280 165)"/>
+
+  <!-- Kerala golden banana (Nendran) slice -->
+  <ellipse cx="130" cy="195" rx="35" ry="18" fill="#facc15" stroke="#ca8a04" stroke-width="2"/>
+  <ellipse cx="130" cy="195" rx="28" ry="12" fill="#fef08a"/>
+
+  <text x="200" y="278" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#fef08a" text-anchor="middle">Puttu &amp; Kadala Curry</text>
+</svg>
